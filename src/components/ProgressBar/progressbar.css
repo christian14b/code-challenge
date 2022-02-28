@@ -1,0 +1,11 @@
+.progress-bar-container {
+    @apply w-full bg-gray-200 rounded-full h-2.5
+}
+
+.progress-bar {
+    @apply bg-green-700 h-2.5 rounded-full
+}
+
+.progress-information {
+    @apply text-green-600 text-center my-4
+}

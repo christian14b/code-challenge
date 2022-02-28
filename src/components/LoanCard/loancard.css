@@ -1,0 +1,47 @@
+.card {
+    @apply border border-gray-200 shadow-md my-2 flex flex-col pb-12 h-full mx-auto w-full min-w-[17.5rem] max-w-[30rem]
+}
+
+.card-image {
+    @apply relative h-0 overflow-hidden cursor-pointer
+}
+
+.card-image img {
+    @apply absolute left-0 top-0
+}
+
+.card-information {
+    @apply grow px-[1.5rem] pt-4 text-center
+}
+
+.card-information-title {
+    @apply text-green-700 text-2xl hover:underline cursor-pointer
+}
+
+.card-information-country {
+    @apply text-gray-400 text-lg
+}
+
+.card-information-description {
+    @apply font-light pt-2
+}
+
+.card p > a {
+    @apply text-green-700 appearance-none cursor-pointer
+}
+
+.card-footer {
+    @apply grow-0 px-[1.5rem]
+}
+
+.card-footer-form {
+    @apply flex justify-between gap-4
+}
+
+.card-funded-loan-container {
+    @apply bg-green-200 px-5 py-3
+}
+
+.card-funded-loan-information {
+    @apply leading-normal text-sm text-center
+}

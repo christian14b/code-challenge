@@ -1,0 +1,7 @@
+@import "../components/LoanCard/loancard.css";
+@import "../components/LoansList/loanslist.css";
+@import "../components/DumbComponents/ButtonCard/buttoncard.css";
+@import "../components/DumbComponents/SelectFunding/selectfunding.css";
+@import "../components/DumbComponents/Loader/loader.css";
+@import "../components/ProgressBar/progressbar.css";
+@import "../containers/borrowers.css";
