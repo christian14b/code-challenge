@@ -8,8 +8,6 @@ Do not forget create your .env file
     REACT_APP_KIVA_ENDPOINT=GRAPHQL_ENDPOINT
 ```
 
-REACT_APP_KIVA_ENDPOINT
-
 ## Available Scripts
 
 In the project directory, you can run:
